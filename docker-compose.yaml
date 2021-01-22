@@ -4,7 +4,7 @@ services:
     image: pqj163/asw_node
     container_name: node_dev
     ports:
-      - "8080:8080"
+      - "8080:80"
     links:
       - mysql
     depends_on:
